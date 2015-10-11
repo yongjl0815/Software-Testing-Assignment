@@ -1,0 +1,2055 @@
+Result for running tests for dominion:
+unittest1.c:
+TESTING isGameOver():
+Checks the number of provinces or if three supply piles are empty to determine if the game is over with Player 0's turn
+When the number of province card left is 5
+Game does not end
+When the number of province card left is 4
+Game does not end
+When the number of province card left is 3
+Game does not end
+When the number of province card left is 2
+Game does not end
+When the number of province card left is 1
+Game does not end
+When the number of province card left is 0
+Game ends
+When the number of empty supply piles is 1
+Game does not end
+When the number of empty supply piles is 2
+Game does not end
+When the number of empty supply piles is 3
+Game ends
+Checks the number of provinces or if three supply piles are empty to determine if the game is over with Player 1's turn
+When the number of province card left is 5
+Game does not end
+When the number of province card left is 4
+Game does not end
+When the number of province card left is 3
+Game does not end
+When the number of province card left is 2
+Game does not end
+When the number of province card left is 1
+Game does not end
+When the number of province card left is 0
+Game ends
+When the number of empty supply piles is 1
+Game does not end
+When the number of empty supply piles is 2
+Game does not end
+When the number of empty supply piles is 3
+Game ends
+Checks the number of provinces or if three supply piles are empty to determine if the game is over with Player 2's turn
+When the number of province card left is 5
+Game does not end
+When the number of province card left is 4
+Game does not end
+When the number of province card left is 3
+Game does not end
+When the number of province card left is 2
+Game does not end
+When the number of province card left is 1
+Game does not end
+When the number of province card left is 0
+Game ends
+When the number of empty supply piles is 1
+Game does not end
+When the number of empty supply piles is 2
+Game does not end
+When the number of empty supply piles is 3
+Game ends
+All tests passed!
+File 'dominion.c'
+Lines executed:17.29% of 584
+Branches executed:17.92% of 424
+Taken at least once:14.86% of 424
+Calls executed:7.29% of 96
+dominion.c:creating 'dominion.c.gcov'
+
+unittest2.c:
+TESTING gainCard():
+Check if the card is added to the discard during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 0's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 0's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 1's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 1's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the discard during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the deck during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+Check if the card is added to the hand during player 2's turn
+=====The card has been added
+Check if the number in discard pile has been decreased by 1 during player 2's turn
+=====The number has been decreased
+When supply pile is empty (0) or card is not used in game
+Card not gained
+All tests passed!
+File 'dominion.c'
+Lines executed:19.86% of 584
+Branches executed:19.34% of 424
+Taken at least once:16.27% of 424
+Calls executed:8.33% of 96
+dominion.c:creating 'dominion.c.gcov'
+
+unittest3.c:
+TESTING discardCard():
+If card is not trashed, check if it is added to Played pile during player 0's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if last card in hand array is played during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if last card in hand array is played during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's only one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's only one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 0's turn
+Check if played card is set to -1 during player 0's turn
+=====Played card has been set to -1 during player 0's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 0's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if last card in hand array is played during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if last card in hand array is played during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's only one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's only one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 1's turn
+Check if played card is set to -1 during player 1's turn
+=====Played card has been set to -1 during player 1's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 1's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if last card in hand array is played during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if last card in hand array is played during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's only one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's only one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+=====The card is added to Played pile 
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+If card is not trashed, check if it is added to Played pile during player 2's turn
+Check if played card is set to -1 during player 2's turn
+=====Played card has been set to -1 during player 2's turn
+Check if number of cards in hand is reduced by 1 if there's more than one card in hand during player 2's turn
+=====The number of cards in hand has been reduced by 1.
+All tests passed!
+File 'dominion.c'
+Lines executed:21.23% of 584
+Branches executed:20.28% of 424
+Taken at least once:16.98% of 424
+Calls executed:8.33% of 96
+dominion.c:creating 'dominion.c.gcov'
+
+unittest4.c:
+TESTING fullDeckCount():
+There are 1 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 3 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 5 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 3 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 9 number of matching cards in deck.
+=====Test passed.
+There are 12 number of matching cards in deck.
+=====Test passed.
+There are 15 number of matching cards in deck.
+=====Test passed.
+There are 1 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 3 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 5 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 3 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 9 number of matching cards in deck.
+=====Test passed.
+There are 12 number of matching cards in deck.
+=====Test passed.
+There are 15 number of matching cards in deck.
+=====Test passed.
+There are 1 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 3 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 5 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 2 number of matching cards in deck.
+=====Test passed.
+There are 4 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 8 number of matching cards in deck.
+=====Test passed.
+There are 10 number of matching cards in deck.
+=====Test passed.
+There are 3 number of matching cards in deck.
+=====Test passed.
+There are 6 number of matching cards in deck.
+=====Test passed.
+There are 9 number of matching cards in deck.
+=====Test passed.
+There are 12 number of matching cards in deck.
+=====Test passed.
+There are 15 number of matching cards in deck.
+=====Test passed.
+All tests passed!
+File 'dominion.c'
+Lines executed:22.77% of 584
+Branches executed:23.11% of 424
+Taken at least once:19.81% of 424
+Calls executed:8.33% of 96
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest1.c:
+TESTING smithy card:
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+Other than 2 cards have not been added.
+All tests passed!
+File 'dominion.c'
+Lines executed:26.71% of 584
+Branches executed:25.47% of 424
+Taken at least once:21.70% of 424
+Calls executed:13.54% of 96
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest2.c:
+TESTING Adventurer card:
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 0's turn.
+===== The number of cards in hand has been increased by 2 during player 0's turn.
+Check if 2 drawn cards are treasure cards during player 0's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 1's turn.
+===== The number of cards in hand has been increased by 2 during player 1's turn.
+Check if 2 drawn cards are treasure cards during player 1's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+Check if the number of cards in hand has been increased by 2 during player 2's turn.
+===== The number of cards in hand has been increased by 2 during player 2's turn.
+Check if 2 drawn cards are treasure cards during player 2's turn.
+=====2 drawn cards are treasure cards.
+All tests passed!
+File 'dominion.c'
+Lines executed:29.62% of 584
+Branches executed:28.77% of 424
+Taken at least once:24.29% of 424
+Calls executed:15.63% of 96
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest3.c:
+TESTING Village card:
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 0's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 0's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 1's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 1's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+Check if the number of cards in hand is the after playing the card during player 2's turn.
+===== The number of cards in hand is after playing the card.
+Check if the action point has been increase by 2 during player 2's turn.
+Other than 2 action points have not been added.
+All tests passed!
+File 'dominion.c'
+Lines executed:30.82% of 584
+Branches executed:29.25% of 424
+Taken at least once:24.76% of 424
+Calls executed:18.75% of 96
+dominion.c:creating 'dominion.c.gcov'
+
+cardtest4.c:
+TESTING great_hall card:
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 0's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 0's turn.
+===== The action point has been increase by 1 during player 0's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 1's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 1's turn.
+===== The action point has been increase by 1 during player 1's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+Check if the number of cards in hand is same after playing the card during player 2's turn.
+===== The number of cards in hand is same after playing the card.
+Check if the action point has been increase by 1 during player 2's turn.
+===== The action point has been increase by 1 during player 2's turn.
+All tests passed!
+File 'dominion.c'
+Lines executed:32.02% of 584
+Branches executed:33.96% of 424
+Taken at least once:25.71% of 424
+Calls executed:20.83% of 96
+dominion.c:creating 'dominion.c.gcov'
+
